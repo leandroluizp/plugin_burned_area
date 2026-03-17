@@ -5,12 +5,12 @@
 [general]
 name=Monitoramento de Queimadas dNBR
 qgisMinimumVersion=3.0
-description=Cálculo de dNBR e vetorização automática de cicatrizes de fogo
+description=Automated burn severity (dNBR) mapping and INPE fire risk analysis for forest fire monitoring.
 version=1.0
 author=Leandro Paixao
 email=leandroluizp@gmail.com
 
-about=Este plugin automatiza o fluxo de trabalho para identificação de cicatrizes de incêndios florestais utilizando o índice dNBR (Differenced Normalized Burn Ratio). O algoritmo processa imagens pré e pós-fogo (bandas NIR e SWIR), calcula a severidade da queima e gera automaticamente uma camada vetorial poligonizada, aplicando filtros espaciais para remover ruídos e áreas não queimadas (fundo). Ideal para monitoramento ambiental e análise de impacto de queimadas.
+about=This plugin provides a streamlined workflow for forest fire monitoring. It automates the calculation of the Differenced Normalized Burn Ratio (dNBR) using Sentinel-2 satellite imagery to detect and classify burn severity. Additionally, it integrates INPE's meteorological fire risk data (.nc files), allowing users to perform zonal statistics across municipal boundaries to identify areas in critical alert states. Ideal for environmental analysts and researchers focused on disaster management and biome preservation.
 
 repository=https://github.com/leandroluizp/plugin_burned_area
 tracker=https://github.com/leandroluizp/plugin_burned_area/issues
@@ -23,7 +23,7 @@ hasProcessingProvider=yes
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags= cicatriz, área queimada, burned, burned area, ambiental, meio ambiente, monitoramento, florestal
+tags= cicatriz, área queimada, fire, burned area, dnbr, inpe, sentinel-2, remote sensing, forest fire, risk analysis, monitoring, brazil, environment, ambiental, meio ambiente, monitoramento, florestal
 
 homepage=http://homepage
 category=Analysis
