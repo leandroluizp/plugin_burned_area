@@ -1,24 +1,29 @@
-# 🛰️ Monitoramento de Áreas Queimadas e Risco de Fogo (v2.0)
+🛰️ Burned Area Monitoring & Fire Risk Analysis (v1.0)
+This QGIS plugin was developed to automate the processing of burn severity indices (dNBR) and meteorological fire risk analysis based on INPE and Sentinel-2 data.
 
-Este plugin para QGIS foi desenvolvido para automatizar o processamento de índices de severidade de queimadas (dNBR) e análise de risco meteorológico de fogo baseados em dados do INPE e Sentinel-2.
+🚀 Features
+dNBR Calculation: Automated processing of Sentinel-2 bands for fire scar detection.
 
-## 🚀 Funcionalidades
-* **Cálculo de dNBR:** Processamento automatizado de bandas do Sentinel-2 para detecção de cicatrizes de fogo.
-* **Limiar Dinâmico:** Ajuste fino de severidade para diferentes biomas.
+Dynamic Threshold: Fine-tuning of severity levels for different biomes.
 
-## 🛠️ Requisitos
-* QGIS 3.22 ou superior.
-* Bibliotecas Python: `processing`, `numpy` (nativa do QGIS).
 
-## 📥 Instalação (Via Nuvem)
-1.  Abra o QGIS.
-2.  Vá em **Complementos > Gerenciar e Instalar Complementos**.
-3.  Em **Configurações**, clique em **Adicionar** um novo repositório.
-4.  Insira a URL do repositório (após configurar o passo 2 abaixo).
 
-## 📖 Como Usar
-1.  **Processamento dNBR:** Selecione as bandas pré e pós fogo e defina o limiar.
-2.  **Relatório de Risco:** Carregue o arquivo `.nc` do INPE e a camada de municípios. O plugin gerará uma lista de alertas no console ou layout.
+🛠️ Requirements
+QGIS 3.22 or higher.
 
----
-Desenvolvido por **Leandro Luiz da Paixão**
+Python Libraries: processing, numpy (built-in with QGIS).
+
+📥 Installation (Cloud-based)
+Open QGIS.
+
+Go to Plugins > Manage and Install Plugins.
+
+In the Settings tab, click Add to create a new repository.
+
+Enter the repository URL (once the cloud setup is complete).
+
+📖 How to Use
+dNBR Processing: Select pre- and post-fire bands and define the threshold.
+
+Risk Report: Load the INPE .nc file and the municipal boundaries layer. The plugin will generate a list of alerts in the console or print layout.
+
