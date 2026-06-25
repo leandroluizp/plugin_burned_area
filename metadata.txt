@@ -5,8 +5,9 @@
 [general]
 name=Monitoramento de Queimadas dNBR
 qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
 description=Automated burn severity (dNBR) mapping and INPE fire risk analysis for forest fire monitoring.
-version=1.0
+version=1.1
 author=Leandro Paixao
 email=leandroluizp@gmail.com
 
